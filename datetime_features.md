@@ -1,4 +1,4 @@
-```
+```python
 df['pickup_datetime'] = pd.to_datetime(df['pickup_datetime'])
 df['hour'] = df['pickup_datetime'].dt.hour
 df['day'] = df['pickup_datetime'].dt.day
