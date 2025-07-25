@@ -76,15 +76,15 @@ After cleaning and feature engineering in Python, the dataset was imported into 
 * **Filters and slicers** for interactivity
 
 ##  Screenshots Included
-
-1. Data Cleaning in Jupyter Notebook
+1. Dataset before and after cleaning
+   
+3. Data Cleaning in Jupyter Notebook
 ![datacleaning](screenshots/aftercleaning.png)
-3. Feature Engineering Code Output
-![pythonecodes](screenshots/dataset pre-analysis - Copy.png)
 5. Power BI Report Pages
 6. Interactive Dashboard Filters
 ![dashboard](screenshots/Dashboard.png)
 7. Final Result Summary Visual
+   ![pythonecodes](screenshots/boxplot graph.png)
 
 (All images are inside the `/screenshots` folder)
 
