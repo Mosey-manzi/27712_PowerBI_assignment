@@ -16,3 +16,12 @@ plt.xlim(0, 100)
 plt.show()
 ```
 ## Running Codes with JUPYTER
+
+
+## correlation Analysis
+```Python
+correlation = df['fare_amount'].corr(df['distance_km'])
+print("Correlation between fare and distance:", correlation)
+```
+## output of the calculation
+Correlation between fare and distance: 0.827965074126981
