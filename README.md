@@ -82,7 +82,8 @@ After cleaning and feature engineering in Python, the dataset was imported into 
 3. Feature Engineering Code Output
 4. Power BI Report Pages
 5. Interactive Dashboard Filters
-6. Final Result Summary Visual
+   [dashboard](screenshots/Dashboard.png)
+7. Final Result Summary Visual
 
 (All images are inside the `/screenshots` folder)
 
