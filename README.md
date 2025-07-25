@@ -15,6 +15,62 @@ Key project highlights include:
 
 By the end of this project, we aim to deliver not only technical outputs, but also business insights that reflect a real-world data-driven approach.
 
+## METHODOLOGY
+This project followed a structured data analysis pipeline combining Python for data preparation and Power BI for visualization. The key steps included:
+
+## 1. Data Acquisition
+Downloaded the Uber Fare Dataset from Kaggle
+
+Loaded the dataset into a Pandas DataFrame for initial inspection
+
+## 2. Data Understanding & Cleaning
+Explored dataset structure, data types, and summary statistics
+
+Identified and handled missing values, outliers, and incorrect entries
+
+Dropped invalid or irrelevant records (e.g., negative fares, zero distances)
+
+Ensured consistency of data types (datetime parsing, numeric casting)
+
+## 3. Exploratory Data Analysis (EDA)
+Analyzed fare distributions, passenger count trends, and trip distances
+
+Investigated relationships between:
+
+Fare amount and distance
+
+Fare amount and time of day
+
+Visualized data using Matplotlib and Seaborn
+
+## 4. Feature Engineering
+Extracted features from the pickup_datetime column:
+
+Hour, day, month, weekday
+
+Peak vs. off-peak categorization
+
+Calculated trip duration and trip distance (if applicable)
+
+Saved cleaned and enriched dataset as .csv
+
+## 5. Data Import into Power BI
+Imported the cleaned dataset into Power BI Desktop
+
+Created visualizations for:
+
+Time-based trends (hourly, daily, monthly)
+
+Fare distribution patterns
+
+Geospatial mapping using pickup and dropoff coordinates
+
+6. Dashboard Design
+Designed an interactive Power BI report with filters and slicers
+
+Applied clean formatting and structured layout for presentation clarity
+
+
 
 ## Installation & Setup Instructions
 
@@ -75,15 +131,21 @@ After cleaning and feature engineering in Python, the dataset was imported into 
 * **Geographic visualizations** using maps
 * **Filters and slicers** for interactivity
 
-##  Screenshots Included
+##  SOME Screenshots Included
 1. Dataset before and after cleaning
-![Uberdatasets](screenshots/orginal dataset.png)
-2. Data Cleaning in Jupyter Notebook
+![Uberdatasets](screenshots/orginal%20dataset.png)
+![](screenshots/enhanced%20cleaned%20dataset.png)
+3. Data Cleaning in Jupyter Notebook
 ![datacleaning](screenshots/aftercleaning.png)
-3. Power BI Report Pages
-4. Interactive Dashboard Filters
+4.statistical analysis& graphs boxplots.
+![](screenshoot/statistical%20calculation.png)
+![](screenshoot/boxplot%20graph.png)
+![](screenshoot/fareamoun_by_hour.png)
+![](screenshots/fareamount_distance.png)
+5. Power BI Report Pages
+6. Interactive Dashboard Filters
 ![dashboard](screenshots/Dashboard.png)
-5. Final Result Summary Visual
+7. Final Result Summary Visual
    ![pythonecodes](screenshots/boxplot graph.png)
 
 (All images are inside the `/screenshots` folder)
