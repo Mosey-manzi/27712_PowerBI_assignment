@@ -78,10 +78,11 @@ After cleaning and feature engineering in Python, the dataset was imported into 
 ##  Screenshots Included
 
 1. Data Cleaning in Jupyter Notebook
-2. Feature Engineering Code Output
-3. Power BI Report Pages
-4. Interactive Dashboard Filters
-5. Final Result Summary Visual
+[datacleaning](screenshots/aftercleaning.png)
+3. Feature Engineering Code Output
+4. Power BI Report Pages
+5. Interactive Dashboard Filters
+6. Final Result Summary Visual
 
 (All images are inside the `/screenshots` folder)
 
