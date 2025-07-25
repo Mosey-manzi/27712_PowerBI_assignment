@@ -77,13 +77,13 @@ After cleaning and feature engineering in Python, the dataset was imported into 
 
 ##  Screenshots Included
 1. Dataset before and after cleaning
-   
-3. Data Cleaning in Jupyter Notebook
+![Uberdatasets](screenshots/orginal dataset.png)
+2. Data Cleaning in Jupyter Notebook
 ![datacleaning](screenshots/aftercleaning.png)
-5. Power BI Report Pages
-6. Interactive Dashboard Filters
+3. Power BI Report Pages
+4. Interactive Dashboard Filters
 ![dashboard](screenshots/Dashboard.png)
-7. Final Result Summary Visual
+5. Final Result Summary Visual
    ![pythonecodes](screenshots/boxplot graph.png)
 
 (All images are inside the `/screenshots` folder)
