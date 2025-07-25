@@ -9,3 +9,4 @@ def peak_hour(hour):
 df['peak_status'] = df['hour'].apply(peak_hour)
 print(df[['pickup_datetime', 'hour', 'day', 'month', 'day_of_week', 'peak_status']].head())
 ```
+## screenshots after code running
