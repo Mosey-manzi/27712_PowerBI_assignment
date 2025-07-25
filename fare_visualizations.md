@@ -16,6 +16,7 @@ plt.xlim(0, 100)
 plt.show()
 ```
 ## Running Codes with JUPYTER
+![](screenshots/boxplot%20graph%20-%20Copy.png)
 
 
 ## correlation Analysis
