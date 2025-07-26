@@ -17,6 +17,8 @@ plt.show()
 ```
 ## Running Codes with JUPYTER
 ![](screenshots/boxplot%20graph%20-%20Copy.png)
+![](screenshots/boxplot-screenshot.png)
+
 
 
 ## correlation Analysis
