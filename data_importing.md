@@ -11,3 +11,5 @@ print("\n Missing values:")
 print(df.isnull().sum())
 ```
 ## after Running the codes screenshoots
+![](screenshots/data_import_review.png)
+![](screenshots/datasete%20analysis2.png)
