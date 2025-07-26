@@ -1,5 +1,5 @@
 ## Visualization: Fare vs Distance Traveled
-````Python
+```Python
 plt.figure(figsize=(10,6))
 sns.scatterplot(x='distance_km', y='fare_amount', data=df, alpha=0.3)
 plt.title("Fare Amount vs Distance Traveled")
