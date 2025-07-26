@@ -16,3 +16,4 @@ df['distance_km'] = df.apply(lambda row: haversine(
     row['pickup_longitude'], row['pickup_latitude'],
     row['dropoff_longitude'], row['dropoff_latitude']), axis=1)
 ```
+![](screenshots/distance_calc.png)
