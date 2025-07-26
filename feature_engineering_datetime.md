@@ -10,6 +10,7 @@ df['day_of_week'] = df['pickup_datetime'].dt.day_name()
 print(df[['pickup_datetime', 'hour', 'day', 'month', 'day_of_week']].head())
 ```
 # outputs
+![](screenshots/pick_up_time.png)
 # What is that happens with the above codes:
 Converts the pickup datetime string into actual datetime format and then extracts:
 
@@ -34,6 +35,7 @@ df['peak_status'] = df['hour'].apply(peak_status)
 print(df[['hour', 'peak_status']].head(10))
 ```
 # Output
+![](screenshots/peak_status.png)
 # And Here we are doing these:
 Adds a new column that labels each ride as "Peak" or "Off-Peak" depending on the hour:
 
