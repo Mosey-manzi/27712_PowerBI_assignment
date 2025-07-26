@@ -14,3 +14,4 @@ outliers = df[(df['fare_amount'] < lower_bound) | (df['fare_amount'] > upper_bou
 print(f"Number of outliers: {len(outliers)}")
 ```
 ## After-Running screenshoot 
+![](screenshots/statistical%20calculation.png)
